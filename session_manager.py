@@ -14,13 +14,7 @@ class SessionManager:
 
         chrome_names = []
 
-        for proc in psutil.process_iter(attrs=['pid', 'name', 'cmdline']):
-            if proc.info['name'] == 'chrome.exe':
-                print("name is : " + proc.info['name'])
-                if proc.info['cmdline']:
-                    print("cmdline is : " + " ".join(proc.info['cmdline']))
-            if proc.info['name'] == 'chrome.exe' and '--remote-debugging-port=8989' in proc.info['cmdline']:
-                chrome_names.append(proc.info['name'])
+        
 
         chrome_processes = [
             p for p in psutil.process_iter(attrs=['pid', 'name', 'cmdline']) 
