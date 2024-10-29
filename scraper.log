@@ -1,0 +1,257 @@
+2024-10-28 02:07:10,730 - INFO - ====== WebDriver manager ======
+2024-10-28 02:07:11,951 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 02:07:12,009 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 02:07:12,030 - INFO - There is no [win64] chromedriver "130.0.6723.69" for browser google-chrome "130.0.6723" in cache
+2024-10-28 02:07:12,031 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 02:07:12,100 - INFO - WebDriver version 130.0.6723.69 selected
+2024-10-28 02:07:12,103 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/130.0.6723.69/win32/chromedriver-win32.zip
+2024-10-28 02:07:12,103 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/130.0.6723.69/win32/chromedriver-win32.zip
+2024-10-28 02:07:12,211 - INFO - Driver downloading response is 200
+2024-10-28 02:07:13,069 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 02:07:13,315 - INFO - Driver has been saved in cache [C:\Users\user\.wdm\drivers\chromedriver\win64\130.0.6723.69]
+2024-10-28 02:15:56,206 - INFO - ====== WebDriver manager ======
+2024-10-28 02:15:57,327 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 02:15:57,366 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 02:15:57,441 - INFO - Driver [C:\Users\user\.wdm\drivers\chromedriver\win64\130.0.6723.69\chromedriver-win32/chromedriver.exe] found in cache
+2024-10-28 02:18:56,171 - INFO - ====== WebDriver manager ======
+2024-10-28 02:18:57,263 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 02:18:57,291 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 02:18:57,315 - INFO - Driver [C:\Users\user\.wdm\drivers\chromedriver\win64\130.0.6723.69\chromedriver-win32/chromedriver.exe] found in cache
+2024-10-28 02:19:32,590 - INFO - package: mysql.connector.plugins
+2024-10-28 02:19:32,591 - INFO - plugin_name: mysql_native_password
+2024-10-28 02:19:32,592 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2024-10-28 03:05:03,369 - INFO - ====== WebDriver manager ======
+2024-10-28 03:05:04,546 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 03:05:04,579 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 03:05:04,605 - INFO - Driver [C:\Users\user\.wdm\drivers\chromedriver\win64\130.0.6723.69\chromedriver-win32/chromedriver.exe] found in cache
+2024-10-28 03:09:00,563 - INFO - ====== WebDriver manager ======
+2024-10-28 03:09:01,661 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 03:09:01,695 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 03:09:01,720 - INFO - Driver [C:\Users\user\.wdm\drivers\chromedriver\win64\130.0.6723.69\chromedriver-win32/chromedriver.exe] found in cache
+2024-10-28 03:09:26,784 - INFO - package: mysql.connector.plugins
+2024-10-28 03:09:26,784 - INFO - plugin_name: mysql_native_password
+2024-10-28 03:09:26,786 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2024-10-28 03:12:13,994 - INFO - ====== WebDriver manager ======
+2024-10-28 03:12:15,124 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 03:12:15,156 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 03:12:15,181 - INFO - Driver [C:\Users\user\.wdm\drivers\chromedriver\win64\130.0.6723.69\chromedriver-win32/chromedriver.exe] found in cache
+2024-10-28 03:12:40,253 - INFO - package: mysql.connector.plugins
+2024-10-28 03:12:40,253 - INFO - plugin_name: mysql_native_password
+2024-10-28 03:12:40,256 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2024-10-28 03:27:08,383 - INFO - ====== WebDriver manager ======
+2024-10-28 03:27:09,494 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 03:27:09,523 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 03:27:09,547 - INFO - Driver [C:\Users\user\.wdm\drivers\chromedriver\win64\130.0.6723.69\chromedriver-win32/chromedriver.exe] found in cache
+2024-10-28 03:28:10,812 - INFO - ====== WebDriver manager ======
+2024-10-28 03:28:11,857 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 03:28:11,886 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 03:28:11,915 - INFO - Driver [C:\Users\user\.wdm\drivers\chromedriver\win64\130.0.6723.69\chromedriver-win32/chromedriver.exe] found in cache
+2024-10-28 03:30:57,931 - INFO - ====== WebDriver manager ======
+2024-10-28 03:30:59,004 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 03:30:59,033 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 03:30:59,058 - INFO - Driver [C:\Users\user\.wdm\drivers\chromedriver\win64\130.0.6723.69\chromedriver-win32/chromedriver.exe] found in cache
+2024-10-28 03:32:22,724 - INFO - ====== WebDriver manager ======
+2024-10-28 03:32:23,772 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 03:32:23,800 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 03:32:23,824 - INFO - Driver [C:\Users\user\.wdm\drivers\chromedriver\win64\130.0.6723.69\chromedriver-win32/chromedriver.exe] found in cache
+2024-10-28 03:32:48,879 - INFO - package: mysql.connector.plugins
+2024-10-28 03:32:48,879 - INFO - plugin_name: mysql_native_password
+2024-10-28 03:32:48,882 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2024-10-28 18:02:05,774 - INFO - ====== WebDriver manager ======
+2024-10-28 18:02:06,827 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 18:02:06,902 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 18:02:06,928 - INFO - Driver [C:\Users\user\.wdm\drivers\chromedriver\win64\130.0.6723.69\chromedriver-win32/chromedriver.exe] found in cache
+2024-10-28 18:02:32,512 - INFO - package: mysql.connector.plugins
+2024-10-28 18:02:32,512 - INFO - plugin_name: mysql_native_password
+2024-10-28 18:02:32,516 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2024-10-28 18:04:50,487 - INFO - ====== WebDriver manager ======
+2024-10-28 18:04:51,558 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 18:04:51,588 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 18:04:51,612 - INFO - Driver [C:\Users\user\.wdm\drivers\chromedriver\win64\130.0.6723.69\chromedriver-win32/chromedriver.exe] found in cache
+2024-10-28 18:05:16,687 - INFO - package: mysql.connector.plugins
+2024-10-28 18:05:16,687 - INFO - plugin_name: mysql_native_password
+2024-10-28 18:05:16,689 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2024-10-28 18:09:04,825 - INFO - ====== WebDriver manager ======
+2024-10-28 18:09:05,888 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 18:09:05,918 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 18:09:05,948 - INFO - Driver [C:\Users\user\.wdm\drivers\chromedriver\win64\130.0.6723.69\chromedriver-win32/chromedriver.exe] found in cache
+2024-10-28 18:10:08,653 - INFO - ====== WebDriver manager ======
+2024-10-28 18:10:10,945 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 18:10:10,974 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 18:10:10,997 - INFO - Driver [C:\Users\user\.wdm\drivers\chromedriver\win64\130.0.6723.69\chromedriver-win32/chromedriver.exe] found in cache
+2024-10-28 18:10:40,461 - INFO - package: mysql.connector.plugins
+2024-10-28 18:10:40,461 - INFO - plugin_name: mysql_native_password
+2024-10-28 18:10:40,464 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2024-10-28 18:11:22,583 - INFO - ====== WebDriver manager ======
+2024-10-28 18:11:23,560 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 18:11:23,589 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 18:11:23,614 - INFO - Driver [C:\Users\user\.wdm\drivers\chromedriver\win64\130.0.6723.69\chromedriver-win32/chromedriver.exe] found in cache
+2024-10-28 18:12:26,355 - INFO - ====== WebDriver manager ======
+2024-10-28 18:12:27,336 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 18:12:27,359 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 18:12:27,382 - INFO - Driver [C:\Users\user\.wdm\drivers\chromedriver\win64\130.0.6723.69\chromedriver-win32/chromedriver.exe] found in cache
+2024-10-28 18:12:56,402 - INFO - package: mysql.connector.plugins
+2024-10-28 18:12:56,402 - INFO - plugin_name: mysql_native_password
+2024-10-28 18:12:56,405 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2024-10-28 18:22:46,029 - INFO - ====== WebDriver manager ======
+2024-10-28 18:22:47,048 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 18:22:47,077 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 18:22:47,101 - INFO - Driver [C:\Users\user\.wdm\drivers\chromedriver\win64\130.0.6723.69\chromedriver-win32/chromedriver.exe] found in cache
+2024-10-28 18:23:49,955 - INFO - ====== WebDriver manager ======
+2024-10-28 18:23:50,975 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 18:23:50,999 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 18:23:51,022 - INFO - Driver [C:\Users\user\.wdm\drivers\chromedriver\win64\130.0.6723.69\chromedriver-win32/chromedriver.exe] found in cache
+2024-10-28 18:24:21,175 - INFO - package: mysql.connector.plugins
+2024-10-28 18:24:21,176 - INFO - plugin_name: mysql_native_password
+2024-10-28 18:24:21,177 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2024-10-28 19:05:45,585 - INFO - ====== WebDriver manager ======
+2024-10-28 19:05:46,654 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 19:05:46,688 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 19:05:46,713 - INFO - Driver [C:\Users\user\.wdm\drivers\chromedriver\win64\130.0.6723.69\chromedriver-win32/chromedriver.exe] found in cache
+2024-10-28 19:06:49,498 - INFO - ====== WebDriver manager ======
+2024-10-28 19:06:50,576 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 19:06:50,600 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 19:06:50,622 - INFO - Driver [C:\Users\user\.wdm\drivers\chromedriver\win64\130.0.6723.69\chromedriver-win32/chromedriver.exe] found in cache
+2024-10-28 19:07:53,118 - INFO - ====== WebDriver manager ======
+2024-10-28 19:07:54,123 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 19:07:54,152 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 19:07:54,179 - INFO - Driver [C:\Users\user\.wdm\drivers\chromedriver\win64\130.0.6723.69\chromedriver-win32/chromedriver.exe] found in cache
+2024-10-28 19:08:56,796 - INFO - ====== WebDriver manager ======
+2024-10-28 19:08:57,784 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 19:08:57,808 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 19:08:57,831 - INFO - Driver [C:\Users\user\.wdm\drivers\chromedriver\win64\130.0.6723.69\chromedriver-win32/chromedriver.exe] found in cache
+2024-10-28 19:09:28,369 - INFO - package: mysql.connector.plugins
+2024-10-28 19:09:28,369 - INFO - plugin_name: mysql_native_password
+2024-10-28 19:09:28,371 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2024-10-28 19:12:10,069 - INFO - ====== WebDriver manager ======
+2024-10-28 19:12:11,166 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 19:12:11,199 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 19:12:11,223 - INFO - Driver [C:\Users\user\.wdm\drivers\chromedriver\win64\130.0.6723.69\chromedriver-win32/chromedriver.exe] found in cache
+2024-10-28 19:13:14,111 - INFO - ====== WebDriver manager ======
+2024-10-28 19:13:15,143 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 19:13:15,166 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 19:13:15,189 - INFO - Driver [C:\Users\user\.wdm\drivers\chromedriver\win64\130.0.6723.69\chromedriver-win32/chromedriver.exe] found in cache
+2024-10-28 19:13:51,156 - INFO - package: mysql.connector.plugins
+2024-10-28 19:13:51,156 - INFO - plugin_name: mysql_native_password
+2024-10-28 19:13:51,158 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2024-10-28 19:15:40,086 - INFO - ====== WebDriver manager ======
+2024-10-28 19:15:41,168 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 19:15:41,200 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 19:15:41,225 - INFO - Driver [C:\Users\user\.wdm\drivers\chromedriver\win64\130.0.6723.69\chromedriver-win32/chromedriver.exe] found in cache
+2024-10-28 19:16:44,176 - INFO - ====== WebDriver manager ======
+2024-10-28 19:16:45,164 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 19:16:45,188 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 19:16:45,210 - INFO - Driver [C:\Users\user\.wdm\drivers\chromedriver\win64\130.0.6723.69\chromedriver-win32/chromedriver.exe] found in cache
+2024-10-28 19:17:20,439 - INFO - package: mysql.connector.plugins
+2024-10-28 19:17:20,439 - INFO - plugin_name: mysql_native_password
+2024-10-28 19:17:20,440 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2024-10-28 19:20:13,192 - INFO - ====== WebDriver manager ======
+2024-10-28 19:20:14,283 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 19:20:14,313 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 19:20:14,338 - INFO - Driver [C:\Users\user\.wdm\drivers\chromedriver\win64\130.0.6723.69\chromedriver-win32/chromedriver.exe] found in cache
+2024-10-28 19:21:17,153 - INFO - ====== WebDriver manager ======
+2024-10-28 19:21:18,126 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 19:21:18,150 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 19:21:18,172 - INFO - Driver [C:\Users\user\.wdm\drivers\chromedriver\win64\130.0.6723.69\chromedriver-win32/chromedriver.exe] found in cache
+2024-10-28 19:21:53,469 - INFO - package: mysql.connector.plugins
+2024-10-28 19:21:53,469 - INFO - plugin_name: mysql_native_password
+2024-10-28 19:21:53,470 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2024-10-28 19:25:46,760 - INFO - ====== WebDriver manager ======
+2024-10-28 19:25:47,801 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 19:25:47,832 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 19:25:47,860 - INFO - Driver [C:\Users\user\.wdm\drivers\chromedriver\win64\130.0.6723.69\chromedriver-win32/chromedriver.exe] found in cache
+2024-10-28 19:26:50,991 - INFO - ====== WebDriver manager ======
+2024-10-28 19:26:51,952 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 19:26:51,979 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 19:26:52,001 - INFO - Driver [C:\Users\user\.wdm\drivers\chromedriver\win64\130.0.6723.69\chromedriver-win32/chromedriver.exe] found in cache
+2024-10-28 19:27:27,073 - INFO - package: mysql.connector.plugins
+2024-10-28 19:27:27,073 - INFO - plugin_name: mysql_native_password
+2024-10-28 19:27:27,075 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2024-10-28 19:58:12,505 - INFO - ====== WebDriver manager ======
+2024-10-28 19:58:13,556 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 19:58:13,588 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 19:58:13,613 - INFO - Driver [C:\Users\user\.wdm\drivers\chromedriver\win64\130.0.6723.69\chromedriver-win32/chromedriver.exe] found in cache
+2024-10-28 19:59:16,252 - INFO - ====== WebDriver manager ======
+2024-10-28 19:59:17,207 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 19:59:17,231 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 19:59:17,252 - INFO - Driver [C:\Users\user\.wdm\drivers\chromedriver\win64\130.0.6723.69\chromedriver-win32/chromedriver.exe] found in cache
+2024-10-28 19:59:28,050 - INFO - package: mysql.connector.plugins
+2024-10-28 19:59:28,050 - INFO - plugin_name: mysql_native_password
+2024-10-28 19:59:28,051 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2024-10-28 20:02:51,536 - INFO - ====== WebDriver manager ======
+2024-10-28 20:02:52,606 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 20:02:52,639 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 20:02:52,663 - INFO - Driver [C:\Users\user\.wdm\drivers\chromedriver\win64\130.0.6723.69\chromedriver-win32/chromedriver.exe] found in cache
+2024-10-28 20:09:48,392 - INFO - ====== WebDriver manager ======
+2024-10-28 20:09:49,441 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 20:09:49,469 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 20:09:49,494 - INFO - Driver [C:\Users\user\.wdm\drivers\chromedriver\win64\130.0.6723.69\chromedriver-win32/chromedriver.exe] found in cache
+2024-10-28 20:10:21,407 - INFO - package: mysql.connector.plugins
+2024-10-28 20:10:21,408 - INFO - plugin_name: mysql_native_password
+2024-10-28 20:10:21,409 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2024-10-28 20:12:00,692 - INFO - ====== WebDriver manager ======
+2024-10-28 20:12:01,735 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 20:12:01,765 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 20:12:01,789 - INFO - Driver [C:\Users\user\.wdm\drivers\chromedriver\win64\130.0.6723.69\chromedriver-win32/chromedriver.exe] found in cache
+2024-10-28 20:12:34,216 - INFO - package: mysql.connector.plugins
+2024-10-28 20:12:34,216 - INFO - plugin_name: mysql_native_password
+2024-10-28 20:12:34,218 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2024-10-28 20:13:05,743 - INFO - ====== WebDriver manager ======
+2024-10-28 20:13:06,770 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 20:13:06,798 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 20:13:06,826 - INFO - Driver [C:\Users\user\.wdm\drivers\chromedriver\win64\130.0.6723.69\chromedriver-win32/chromedriver.exe] found in cache
+2024-10-28 20:13:39,341 - INFO - package: mysql.connector.plugins
+2024-10-28 20:13:39,342 - INFO - plugin_name: mysql_native_password
+2024-10-28 20:13:39,343 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2024-10-28 20:14:16,483 - INFO - ====== WebDriver manager ======
+2024-10-28 20:14:17,473 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 20:14:17,502 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 20:14:17,525 - INFO - Driver [C:\Users\user\.wdm\drivers\chromedriver\win64\130.0.6723.69\chromedriver-win32/chromedriver.exe] found in cache
+2024-10-28 20:42:01,065 - INFO - ====== WebDriver manager ======
+2024-10-28 20:42:02,156 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 20:42:02,191 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 20:42:02,216 - INFO - Driver [C:\Users\user\.wdm\drivers\chromedriver\win64\130.0.6723.69\chromedriver-win32/chromedriver.exe] found in cache
+2024-10-28 20:42:35,947 - INFO - package: mysql.connector.plugins
+2024-10-28 20:42:35,947 - INFO - plugin_name: mysql_native_password
+2024-10-28 20:42:35,948 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2024-10-28 21:00:32,962 - INFO - ====== WebDriver manager ======
+2024-10-28 21:00:34,040 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 21:00:34,075 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 21:00:34,100 - INFO - Driver [C:\Users\user\.wdm\drivers\chromedriver\win64\130.0.6723.69\chromedriver-win32/chromedriver.exe] found in cache
+2024-10-28 21:10:38,476 - INFO - ====== WebDriver manager ======
+2024-10-28 21:10:39,553 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 21:10:39,582 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 21:10:39,608 - INFO - Driver [C:\Users\user\.wdm\drivers\chromedriver\win64\130.0.6723.69\chromedriver-win32/chromedriver.exe] found in cache
+2024-10-28 21:12:19,637 - INFO - ====== WebDriver manager ======
+2024-10-28 21:12:20,688 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 21:12:20,716 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 21:12:20,742 - INFO - Driver [C:\Users\user\.wdm\drivers\chromedriver\win64\130.0.6723.69\chromedriver-win32/chromedriver.exe] found in cache
+2024-10-28 21:13:51,608 - INFO - ====== WebDriver manager ======
+2024-10-28 21:13:52,722 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 21:13:52,754 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 21:13:52,779 - INFO - Driver [C:\Users\user\.wdm\drivers\chromedriver\win64\130.0.6723.69\chromedriver-win32/chromedriver.exe] found in cache
+2024-10-28 21:13:52,780 - INFO - ====== WebDriver manager ======
+2024-10-28 21:13:53,745 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 21:13:53,767 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 21:13:53,789 - INFO - Driver [C:\Users\user\.wdm\drivers\chromedriver\win64\130.0.6723.69\chromedriver-win32/chromedriver.exe] found in cache
+2024-10-28 21:14:30,405 - INFO - ====== WebDriver manager ======
+2024-10-28 21:14:31,413 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 21:14:31,442 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 21:14:31,468 - INFO - Driver [C:\Users\user\.wdm\drivers\chromedriver\win64\130.0.6723.69\chromedriver-win32/chromedriver.exe] found in cache
+2024-10-28 21:15:05,916 - INFO - package: mysql.connector.plugins
+2024-10-28 21:15:05,917 - INFO - plugin_name: mysql_native_password
+2024-10-28 21:15:05,918 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2024-10-28 21:16:03,898 - INFO - ====== WebDriver manager ======
+2024-10-28 21:16:05,180 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 21:16:05,210 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 21:16:05,235 - INFO - Driver [C:\Users\user\.wdm\drivers\chromedriver\win64\130.0.6723.69\chromedriver-win32/chromedriver.exe] found in cache
+2024-10-28 21:16:13,165 - INFO - package: mysql.connector.plugins
+2024-10-28 21:16:13,165 - INFO - plugin_name: mysql_native_password
+2024-10-28 21:16:13,167 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2024-10-28 21:21:05,109 - INFO - ====== WebDriver manager ======
+2024-10-28 21:21:06,155 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 21:21:06,185 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-28 21:21:06,209 - INFO - Driver [C:\Users\user\.wdm\drivers\chromedriver\win64\130.0.6723.69\chromedriver-win32/chromedriver.exe] found in cache
+2024-10-28 21:21:16,650 - INFO - package: mysql.connector.plugins
+2024-10-28 21:21:16,651 - INFO - plugin_name: mysql_native_password
+2024-10-28 21:21:16,652 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
