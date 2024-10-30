@@ -1,3 +1,5 @@
+import logging
+import os
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -27,25 +29,39 @@ class ProductListing:
                 print("No more pages or products to scrape.")
                 break
 
+    def save_raw_html(self, filename, content):
+        os.makedirs('raw_html', exist_ok=True)
+        path = f'raw_html/lists/{filename}'
+        
+        with open(path, 'w', encoding='utf-8') as f:
+            f.write(content)
+        #self.db_manager.insert_record('list_page',{"html_content": f'raw_html/{filepath}/{filename}',})
+        logging.info(f"Saved raw HTML to {path}")
+
     def store_html_content(self):
         """Store the current HTML content of the page with retries."""
         max_retries = 3
         for attempt in range(max_retries):
             try:
                 page_html = self.driver.execute_script("return document.body.innerHTML;")
+                file_name = input("Please enter the files name: ")
+                self.save_raw_html(file_name, page_html)
                 # Store or process the page_html as needed
                 return
             except Exception as e:
+                logging.error(f"The error is : {e}")
                 print(f"Attempt {attempt + 1}/{max_retries} failed: {e}")
                 time.sleep(1)  # Wait before retrying
         print("Failed to store HTML content after multiple attempts.")
 
     def extract_products(self):
         """Extract product names from the current page."""
+        print("Extract product names from the current page.")
         products = self.driver.find_elements(By.CLASS_NAME, 'product-item')
         for product in products:
             try:
                 product_name = product.find_element(By.CLASS_NAME, 'product-name').text  # Adjust class name as needed
+                print(product_name)
                 self.db_manager.insert_record('products_in_list', {"name": product_name})
             except Exception as e:
                 print(f"Error extracting product name: {e}")

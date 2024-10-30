@@ -2,3 +2,6 @@
 .vscode/*
 .env
 __pycache__/*
+scraper.log
+raw_html/*
+log/*

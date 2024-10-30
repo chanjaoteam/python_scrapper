@@ -3,7 +3,7 @@ import logging
 def setup_logger():
     """Set up the logger for the scraper."""
     logging.basicConfig(
-        filename='scraper.log',
+        filename='log/scraper.log',
         level=logging.INFO,
         format='%(asctime)s - %(levelname)s - %(message)s'
     )
