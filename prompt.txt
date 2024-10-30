@@ -1,0 +1,173 @@
+Tools and Technologies
+Web Automation:
+
+Playwright: For controlling the web browser and scraping dynamic content.
+Data Storage:
+
+MySQL: For storing structured product data in a relational database.
+Local File System: For saving raw HTML files.
+APIs:
+
+OpenAI API: For data cleaning and validation, if required in the future.
+Scheduling and Task Automation:
+
+Cron Jobs: For automating the scraping process at regular intervals (if needed).
+Logging:
+
+Python Logging Module: For tracking the scraper's operations and errors.
+Flow of TaobaoScraper with Tools
+Initialization
+
+Tool: Playwright for browser automation.
+Method: Create an instance of TaobaoScraper.
+Details:
+Initialize Playwright and set up a browser context.
+Set up logging for monitoring scraper performance.
+Scraping Product Lists
+
+Method: scrape_product_info
+Tools: Playwright.
+Process:
+Construct Search URL: Build the search URL based on the product name.
+Open Search Page: Use Playwright to navigate to the constructed URL.
+Wait for Content: Use Playwright’s built-in wait functionality to wait for necessary elements to load.
+Get Raw HTML:
+Use Playwright to retrieve the page content.
+Store Raw HTML: Write the raw HTML to a file (e.g., raw_html/product_list.html).
+Extract Product Data:
+Parse the HTML with Beautiful Soup or a similar library to extract product details (name, price, merchant, etc.).
+Store the extracted data in a list of dictionaries.
+Scraping Product Details
+
+Method: scrape_product_info_by_weight
+Tools: Playwright.
+Process:
+Iterate Over Products: For each product URL:
+Open Product Detail Page: Use Playwright to navigate to each product’s URL.
+Wait for Content: Ensure the product page is fully loaded.
+Get Raw HTML:
+Retrieve the raw HTML of the product detail page using Playwright.
+Store Raw HTML: Save the HTML to a file (e.g., raw_html/product_details/[product_id].html).
+Extract Detailed Data:
+Use a parsing library to scrape additional information (weights, descriptions, etc.).
+Store Detailed Data: Append the extracted product details to the initial product list.
+Data Storage
+
+Raw HTML: All raw HTML content is saved in designated folders for later access.
+Structured Product Data:
+Use MySQL to store the combined product data in a structured format, including:
+Product ID
+Name
+Price
+Merchant
+Weights
+Descriptions
+Path to raw HTML files
+Final Output
+
+Method: Return or save the combined list of products to a JSON file or directly into the MySQL database.
+Logging: Log success and errors to a log file for monitoring the scraping process.
+
+
+Detailed Flow with Playwright
+Initialize Playwright and Logging:
+
+Set up a new instance of Playwright.
+Launch a browser (e.g., Chromium) with necessary options.
+Initialize a logger to track activities and errors.
+Scrape Product Lists:
+
+Construct the search URL based on the query.
+Use browser.new_page() to open a new tab.
+Navigate to the search page with page.goto(url).
+Wait for the product listing element to load using page.wait_for_selector().
+Retrieve the raw HTML using page.content() and save it.
+Parse and extract product data using Beautiful Soup.
+Scrape Product Details:
+
+For each product link, navigate to the detail page.
+Use page.goto(product_url) to load the product page.
+Wait for specific detail elements to load.
+Get the raw HTML and save it.
+Extract detailed information like weights and descriptions.
+Data Management:
+
+Use MySQL to connect and store the product information.
+Create tables to store product details and raw HTML paths.
+Log and Monitor:
+
+Keep track of all actions and errors using the logging module.
+Ensure all processes are logged for review and debugging.
+
+Database Structure
+1. Products Table
+This table will store the main details of the products scraped from Taobao.
+
+Column Name	Data Type	Description
+id	INT PRIMARY KEY	Unique identifier for each product.
+name	VARCHAR(255)	Name of the product.
+price	DECIMAL(10, 2)	Price of the product.
+merchant	VARCHAR(255)	Merchant or seller of the product.
+weight	VARCHAR(100)	Weight of the product (if applicable).
+description	TEXT	Description of the product.
+category_id	INT	Foreign key linking to the categories table.
+raw_html_path	VARCHAR(255)	Path to the raw HTML file of the product detail page.
+created_at	DATETIME	Timestamp of when the product was scraped.
+updated_at	DATETIME	Timestamp of the last update to the product entry.
+2. Categories Table
+This table will store the product categories for better organization.
+
+Column Name	Data Type	Description
+id	INT PRIMARY KEY	Unique identifier for each category.
+name	VARCHAR(255)	Name of the category.
+parent_id	INT	Optional foreign key for parent category (self-referential for subcategories).
+created_at	DATETIME	Timestamp of when the category was added.
+updated_at	DATETIME	Timestamp of the last update to the category entry.
+3. Raw HTML Table
+This optional table can be used to keep track of all raw HTML files, which can be useful for debugging or further analysis.
+
+Column Name	Data Type	Description
+id	INT PRIMARY KEY	Unique identifier for each HTML entry.
+file_path	VARCHAR(255)	Path to the raw HTML file.
+type	ENUM('product_list', 'product_detail')	Type of the HTML file (product list or detail).
+created_at	DATETIME	Timestamp of when the HTML file was saved.
+updated_at	DATETIME	Timestamp of the last update to the HTML entry.
+Relationships
+Products Table has a foreign key relationship with Categories Table through category_id, allowing you to categorize products effectively.
+The Raw HTML Table can optionally link to the Products Table if you want to maintain a record of all raw HTML associated with each product.
+SQL Example for Creating Tables
+Here’s an example of how you can create these tables using SQL:
+
+sql
+Copy code
+CREATE TABLE categories (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    parent_id INT DEFAULT NULL,
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+    updated_at DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);
+
+CREATE TABLE products (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    price DECIMAL(10, 2) NOT NULL,
+    merchant VARCHAR(255) NOT NULL,
+    weight VARCHAR(100),
+    description TEXT,
+    category_id INT,
+    raw_html_path VARCHAR(255),
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+    updated_at DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    FOREIGN KEY (category_id) REFERENCES categories(id)
+);
+
+CREATE TABLE raw_html (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    file_path VARCHAR(255) NOT NULL,
+    type ENUM('product_list', 'product_detail') NOT NULL,
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+    updated_at DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);
+Summary
+This database structure is designed to support efficient data management for your TaobaoScraper. It ensures that product information is well-organized and easily accessible, allowing for future expansions like adding more product attributes or categories. Let me know if you need any modifications or additional details!

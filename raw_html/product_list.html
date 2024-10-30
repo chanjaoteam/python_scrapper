@@ -1,0 +1,26 @@
+<html><head></head><body><a id="a-link"></a>
+<script>
+  localStorage.x5referer = "https://xssyjt.1688.com/page/offerlist.htm?spm=0.0.wp_pc_common_topnav_38229151.0";	
+  var link = document.getElementById("a-link");
+  var isMobile = navigator.userAgent.match(/.*(iPhone|iPad|Android|ios|SymbianOS|Windows Phone).*/i);
+  var host = isMobile ? "https://login.m.taobao.com/login.htm?from=sm&ttid=h5@iframe&redirectURL=" : "https://login.taobao.com/member/login.jhtml?redirectURL=";
+  try {
+	var hostValue = window.location.host;
+	var parts = hostValue && hostValue.split('.');
+	var exp = new Date();
+	var maxAge = -100;
+	exp.setTime(exp.getTime() + maxAge);
+	var cookie = 'x5secdata=;maxAge=' + maxAge + ';expires=' + exp.toUTCString() + ';path=/;domain=.' + parts.slice(-2).join('.') + ';';
+	document.cookie = cookie;
+	document.cookie = cookie + 'Secure;SameSite=None';
+  } catch(e) {}
+  link.href = host + "https%3a%2f%2fxssyjt.1688.com:443/page/offerlist.htm%2F_____tmd_____%2Fpage%2Flogin_jump%3Frand%3DS3WxGHAgAt756EpznwfNzJq2AFA2qBNla3j6EINUS8We9dazM_iKElp8DwVSHZUevpC41Bx7RzivXIj9RnZgdg%26_lgt_%3D6b58c0854a325a6d57914aeca89e3b4d___179962___e0fdf739d460d0ad8396e141bd13690a___eaebc79cac1eb5d2f7d8b4595e00ec73344a42d5a0b8cf56539c823cd24ac06c21079da475dc74e05d0ffbc73a52cb996577b760376232f6705af748a2b9c1dafb9e7b1de409b5bfffe98532edcdefc0869e06faf5d0278afc59c77ab6a05c26c68aae2d4fcf5332fae2299ae03674658573efd9da76ac422830f9dd5d51430d754793d63b4bb32c2f6d2f15ace2dfd7bd0bb4cb028425bba88ab3e82b8f7c906c6ecf7a56171a48aef51e78d7b7640ab8499c340d3a9ecb1c98d91aa476bc5c85ff29ab2f4b2cf2d72bca145022b87c558da0a73ec5b037de6e6cc9a051680c&uuid=6b58c0854a325a6d57914aeca89e3b4d";
+  link.click();
+ window._config_ = {
+   "action": "login",
+   "url": "https://login.taobao.com/member/login.jhtml?style=mini&newMini2=true&from=sm&full_redirect=false&redirectURL=https%3a%2f%2fxssyjt.1688.com:443/page/offerlist.htm%2F_____tmd_____%2Fpage%2Fclose_iframe_page%3Frand%3DS3WxGHAgAt756EpznwfNzJq2AFA2qBNla3j6EINUS8We9dazM_iKElp8DwVSHZUevpC41Bx7RzivXIj9RnZgdg%26uuid%3D6b58c0854a325a6d57914aeca89e3b4d%26_lgt_%3D6b58c0854a325a6d57914aeca89e3b4d___179962___e0fdf739d460d0ad8396e141bd13690a___eaebc79cac1eb5d2f7d8b4595e00ec73344a42d5a0b8cf56539c823cd24ac06c21079da475dc74e05d0ffbc73a52cb996577b760376232f6705af748a2b9c1dafb9e7b1de409b5bfffe98532edcdefc0869e06faf5d0278afc59c77ab6a05c26c68aae2d4fcf5332fae2299ae03674658573efd9da76ac422830f9dd5d51430d754793d63b4bb32c2f6d2f15ace2dfd7bd0bb4cb028425bba88ab3e82b8f7c906c6ecf7a56171a48aef51e78d7b7640ab8499c340d3a9ecb1c98d91aa476bc5c85ff29ab2f4b2cf2d72bca145022b87c558da0a73ec5b037de6e6cc9a051680c",
+   "h5url": "https://login.m.taobao.com/login.htm?from=sm&ttid=h5@iframe&redirectURL=https%3a%2f%2fxssyjt.1688.com:443/page/offerlist.htm%2F_____tmd_____%2Fpage%2Fclose_iframe_page%3Frand%3DS3WxGHAgAt756EpznwfNzJq2AFA2qBNla3j6EINUS8We9dazM_iKElp8DwVSHZUevpC41Bx7RzivXIj9RnZgdg%26uuid%3D6b58c0854a325a6d57914aeca89e3b4d%26_lgt_%3D6b58c0854a325a6d57914aeca89e3b4d___179962___e0fdf739d460d0ad8396e141bd13690a___eaebc79cac1eb5d2f7d8b4595e00ec73344a42d5a0b8cf56539c823cd24ac06c21079da475dc74e05d0ffbc73a52cb996577b760376232f6705af748a2b9c1dafb9e7b1de409b5bfffe98532edcdefc0869e06faf5d0278afc59c77ab6a05c26c68aae2d4fcf5332fae2299ae03674658573efd9da76ac422830f9dd5d51430d754793d63b4bb32c2f6d2f15ace2dfd7bd0bb4cb028425bba88ab3e82b8f7c906c6ecf7a56171a48aef51e78d7b7640ab8499c340d3a9ecb1c98d91aa476bc5c85ff29ab2f4b2cf2d72bca145022b87c558da0a73ec5b037de6e6cc9a051680c",
+   "dialogSize": {"width": "", "height": ""}
+};
+</script>
+<!--rgv587_flag:sm--></body></html>
